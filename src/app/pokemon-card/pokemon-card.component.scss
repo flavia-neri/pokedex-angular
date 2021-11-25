@@ -1,0 +1,103 @@
+.pokemon-card{
+    font-family: "Signika";
+    margin:0 5px 50px;
+    width: 215px;
+    display:flex;
+    flex-direction:column;
+    &__image{
+        background:#F2F2F2;
+    }
+    &__nuumber{
+        padding: 0 10px;
+        color:#919191;
+        font-size:80%;
+        padding-top:2px;
+    }
+    &__name{
+        color:#313131;
+        font-size:145%;
+        margin-bottom:5px;
+        margin: 0.5em 0;
+    }
+    &__types{
+        display:flex;
+    }
+    &__type{
+        margin-right: 10px;
+        border-radius: 3px;
+        line-height:18px;
+        height:18px;
+        max-width:110px;
+        width:38.4375%;
+        float:left;
+        text-transform:none;
+        font-size:11px;
+        text-align:center;
+
+        &--grass{
+            background:#9BCC50;
+            color:#212121;
+        }
+        &--poison{
+            background:#B97FC9;
+            color:#FFFFFF;
+        }
+        &--ground{
+            background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+            color:#212121;
+        }
+        &--fairy{
+            background: #fdb9e9;
+            color: #212121;
+        }
+        &--fire{
+            background: #fd7d24;
+            color:#FFFFFF;
+        }
+        &--normal{
+            background: #a4acaf;
+            color: #212121;
+        }
+        &--flying{
+            background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+            color: #212121;
+        }
+        &--bug{
+            background: #729f3f;
+            color:#FFFFFF;
+        }
+        &--water{
+            background: #4592c4;
+            color:#FFFFFF;
+        }
+        &--fighting{
+            background: #d56723;
+            color:#FFFFFF;
+        }
+        &--psychic{
+            background: #f366b9;
+            color:#FFFFFF;
+        }
+        &--rock{
+            background: #a38c21;
+            color:#FFFFFF;
+        }
+        &--eletric{
+            background: #eed535;
+            color: #212121;
+        }
+        &--steel{
+            background: #9eb7b8;
+            color: #212121;
+        }
+        &--ice{
+            background: #51c4e7;
+            color: #212121;
+        }
+        &--ghost{
+            background: #7b62a3;
+            color:#FFFFFF;
+        }
+    }
+}
+    
